@@ -12,3 +12,4 @@
 /Users/kshitiz/Desktop/SPO/Shared/obj/Debug/net8.0/Shared.pdb
 /Users/kshitiz/Desktop/SPO/Shared/obj/Debug/net8.0/Shared.genruntimeconfig.cache
 /Users/kshitiz/Desktop/SPO/Shared/obj/Debug/net8.0/ref/Shared.dll
+/Users/kshitiz/Desktop/SPO/Shared/obj/Debug/net8.0/Shared.sourcelink.json

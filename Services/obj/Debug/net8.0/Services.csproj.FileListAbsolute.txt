@@ -151,3 +151,4 @@
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/ref/Services.dll
 /Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Shared.dll
 /Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Shared.pdb
+/Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.sourcelink.json
