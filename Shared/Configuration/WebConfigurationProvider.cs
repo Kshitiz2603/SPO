@@ -1,4 +1,5 @@
 using System;
+using System.Configuration;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
@@ -7,9 +8,17 @@ namespace Shared{
     {
         public static void Initialize(HostBuilderContext context, IConfigurationBuilder builder)
         {
-            // Add your custom configuration sources here
+            InitializeConfig(builder);
+        }
+
+        public static void InitializeConfig(IConfigurationBuilder builder)
+        {
+
+            builder.SetBasePath(AppContext.BaseDirectory);
             builder.AddJsonFile("config.json", optional: true, reloadOnChange: true);
-            builder.AddEnvironmentVariables();
+
+            var configuration = builder.Build();
+
         }
     }
 

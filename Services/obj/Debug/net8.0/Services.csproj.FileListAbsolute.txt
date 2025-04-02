@@ -6,6 +6,7 @@
 /Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Services.dll
 /Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Services.pdb
 /Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Dapper.dll
 /Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Google.Protobuf.dll
 /Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Humanizer.dll
 /Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/K4os.Compression.LZ4.dll
@@ -128,6 +129,14 @@
 /Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/runtimes/win-x64/native/krbcc64.dll
 /Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
 /Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Windows.Extensions.dll
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Core.dll
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Data.dll
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Interfaces.dll
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Shared.dll
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Shared.pdb
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Interfaces.pdb
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Core.pdb
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Data.pdb
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache
@@ -135,6 +144,7 @@
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.MvcApplicationPartsAssemblyInfo.cs
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.MvcApplicationPartsAssemblyInfo.cache
+/Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.sourcelink.json
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/staticwebassets.build.json
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/staticwebassets.development.json
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/staticwebassets/msbuild.Services.Microsoft.AspNetCore.StaticWebAssets.props
@@ -149,6 +159,3 @@
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.pdb
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.genruntimeconfig.cache
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/ref/Services.dll
-/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Shared.dll
-/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Shared.pdb
-/Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.sourcelink.json

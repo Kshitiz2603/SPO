@@ -1,0 +1,6 @@
+{
+    "version": "1.0",
+    "ConnectionStrings":{
+        "ConfigurationMaster": "server=127.0.0.1;port=3306;database=College;user=root;password=virtual_01;"
+    }
+}

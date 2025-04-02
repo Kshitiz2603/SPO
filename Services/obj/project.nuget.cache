@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nRS3/Pbpbz8=",
+  "dgSpecHash": "FvUvDkpWHUU=",
   "success": true,
   "projectFilePath": "/Users/kshitiz/Desktop/SPO/Services/Services.csproj",
   "expectedPackageFiles": [
     "/Users/kshitiz/.nuget/packages/bouncycastle.cryptography/2.3.1/bouncycastle.cryptography.2.3.1.nupkg.sha512",
+    "/Users/kshitiz/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
     "/Users/kshitiz/.nuget/packages/google.protobuf/3.26.1/google.protobuf.3.26.1.nupkg.sha512",
     "/Users/kshitiz/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/kshitiz/.nuget/packages/k4os.compression.lz4/1.3.8/k4os.compression.lz4.1.3.8.nupkg.sha512",
