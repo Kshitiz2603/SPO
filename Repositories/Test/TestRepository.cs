@@ -11,7 +11,7 @@ namespace Repositories{
             // Constructor logic here
         }
 
-        public async Task<List<studentDetails>> GetAllAsync()
+        public async Task<List<studentDetails>> GetAllStudents()
         {
             // Implement the logic to get all records from the database
             // For example, using Dapper or Entity Framework

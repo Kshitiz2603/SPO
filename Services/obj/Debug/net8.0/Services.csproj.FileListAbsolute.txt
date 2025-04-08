@@ -159,3 +159,7 @@
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.pdb
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/Services.genruntimeconfig.cache
 /Users/kshitiz/Desktop/SPO/Services/obj/Debug/net8.0/ref/Services.dll
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/BusinessLogic.dll
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Repositories.dll
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/BusinessLogic.pdb
+/Users/kshitiz/Desktop/SPO/Services/bin/Debug/net8.0/Repositories.pdb

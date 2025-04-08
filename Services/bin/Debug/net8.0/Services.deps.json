@@ -8,12 +8,14 @@
     ".NETCoreApp,Version=v8.0": {
       "Services/1.0.0": {
         "dependencies": {
+          "BusinessLogic": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.14",
           "Microsoft.EntityFrameworkCore.Design": "9.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.3",
           "MySql.Data": "9.2.0",
           "MySql.EntityFrameworkCore": "9.0.0",
+          "Repositories": "1.0.0",
           "Shared": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -921,6 +923,17 @@
           }
         }
       },
+      "BusinessLogic/1.0.0": {
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "BusinessLogic.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Core/1.0.0": {
         "runtime": {
           "Core.dll": {
@@ -949,6 +962,17 @@
         },
         "runtime": {
           "Interfaces.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Repositories/1.0.0": {
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Repositories.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1503,6 +1527,11 @@
       "path": "zstdsharp.port/0.8.0",
       "hashPath": "zstdsharp.port.0.8.0.nupkg.sha512"
     },
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Core/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1514,6 +1543,11 @@
       "sha512": ""
     },
     "Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
