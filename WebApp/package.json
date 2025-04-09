@@ -1,17 +1,18 @@
 {
   "name": "web-app",
   "version": "0.0.0",
-  "private":true,
+  "private": true,
   "scripts": {
     "clean": "rm -rf dist",
     "ng": "ng",
     "SPO:start": "ng serve --no-hmr -o",
-    "SPO:build": "ng build",
+    "SPO:build": "ng build --configuration=production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:WebApp": "node dist/web-app/server/server.mjs"
   },
   "dependencies": {
+    "@angular/cdk": "^19.2.7",
     "@angular/common": "^19.2.0",
     "@angular/compiler": "^19.2.0",
     "@angular/core": "^19.2.0",

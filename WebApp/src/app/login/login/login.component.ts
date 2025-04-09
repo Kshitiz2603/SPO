@@ -1,6 +1,11 @@
-import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import axios from 'axios';
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { FloatLabel } from 'primeng/floatlabel';
+import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from 'primeng/button';
+
 
 @Component({
   selector: 'app-login',
@@ -12,6 +17,10 @@ export class LoginComponent {
   imageUrl: string | null = null;
   result: any = 'Starting...';
   isLoggedIn: boolean = true;
+  loginForm!: FormGroup;
+  value1: string | undefined;
+
+  value2: string | undefined;
 
   constructor(private fb: FormBuilder) {
   }
@@ -21,9 +30,21 @@ export class LoginComponent {
     this.imageUrl = 'http://127.0.0.1:8000/capture?t=' + new Date().getTime();
   }
 
-  // ngOnInit() {
-  //   // this.onCapture();
-  // }
+  ngOnInit() {
+    //this.createForm();
+    // this.onCapture();
+  }
+
+  onLogin(){
+
+  }
+
+  createForm() {
+    this.loginForm = this.fb.group({
+      username: ['', Validators.required],
+      password: ['', Validators.required]
+    });
+  }
 
   // onCapture(){
   //   axios.get('http://127.0.0.1:8000/capture', { responseType: 'blob' })

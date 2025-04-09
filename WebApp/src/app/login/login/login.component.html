@@ -1,7 +1,17 @@
-<div *ngIf="isLoggedIn" style="z-index: 100;">
-  <div >
-    <h2>Capture Face</h2>
-    <button (click)="captureImage()">Capture Image</button>
+<div class="login-container">
+  <div class="login-form">
+    <div class="login-header">
+      <h1>Welcome to the Login Page</h1>
+    </div>
+    <div class="login-details">
+      <div>
+        <input pInputText [(ngModel)]="value1" type="text" placeholder="Name" />
+      </div>
+      <div>
+        <input pInputText [(ngModel)]="value2" type="text" placeholder="Password" />
+      </div>
+      <div>
+        <p-button label="Save" icon="pi pi-check" iconPos="right" />
+    </div>
   </div>
 </div>
-  

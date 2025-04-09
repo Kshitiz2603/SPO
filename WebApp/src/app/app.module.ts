@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login/login.component';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { PrimeNgModule } from './PrimeNg-Modules/primeNg.module';
 
 @NgModule({
   declarations: [
@@ -14,9 +15,10 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,        
-    ReactiveFormsModule, 
-  ],
+    ReactiveFormsModule,
+    FormsModule,
+    PrimeNgModule
+    ],
   providers: [
     provideClientHydration(withEventReplay())
   ],
