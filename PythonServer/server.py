@@ -4,6 +4,7 @@ import numpy as np
 import io
 from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
 
 app = FastAPI()
 app.add_middleware(
@@ -34,5 +35,4 @@ async def capture():
     return StreamingResponse(io.BytesIO(frame), media_type="image/jpeg")  # Return image as response
 
 if __name__ == "__main__":
-    import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)

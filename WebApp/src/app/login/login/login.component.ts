@@ -58,7 +58,7 @@ export class LoginComponent {
   //   );
   // }
 
-  // captureImage(){
-  //   this.onCapture();
-  // }
+  register(){
+    //this.onCapture();
+  }
 }
